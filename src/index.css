@@ -1,0 +1,104 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #4caf50;
+}
+
+.timer-display {
+  margin-bottom: 20px;
+}
+
+.timer-display h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.timer-display p {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.controls button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.controls button:not(:disabled):hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.duration-settings {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.duration-settings label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.duration-settings input {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.set-button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.set-button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.set-button:not(:disabled):hover {
+  background-color: #4caf50;
+  color: white;
+}
