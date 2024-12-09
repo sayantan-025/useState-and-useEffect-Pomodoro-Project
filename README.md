@@ -22,7 +22,7 @@ Introducing the Pomodoro Timer Application, built with React and CSS, designed t
 
 <h2>🚀 Watch Live :</h2>
 
-[www.productviewerapp.com](https://productcard-state.netlify.app/)
+[www.promodoro.com](https://promodoro-sayantan.netlify.app/)
 
 <h2>👁️ Project Overview :</h2>
 
